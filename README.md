@@ -45,21 +45,25 @@ Before you begin, ensure you have met the following requirements:
 
 2. Create a virtual environment (optional but recommended):
 
+    ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install the required dependencies:
 
+    ```bash
     pip install -r requirements.txt
 
 4. Set up the database:
 
+    ```bash
     flask db init
     flask db migrate
     flask db upgrade
 
 5. Start the Flask development server:
 
+    ```bash
     flask run
 
 
