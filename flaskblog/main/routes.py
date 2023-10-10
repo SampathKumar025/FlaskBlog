@@ -15,3 +15,7 @@ def home():
 @main.route("/about")
 def about():
     return render_template("about.html", title="About")
+
+@main.route("/privacy")
+def privacy():
+    return render_template("privacy.html", title="Privacy")
