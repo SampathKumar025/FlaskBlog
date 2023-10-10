@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-Wtf
+Flask-Mail
+Flask-Bcrypt
+Email-Validator
+Itsdangerous
+Pillow
