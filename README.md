@@ -64,7 +64,8 @@ Before you begin, ensure you have met the following requirements:
 5. Start the Flask development server:
 
     ```bash
-    flask run
+    flask run  # or
+    py run.py
 
 
 ## Usage
