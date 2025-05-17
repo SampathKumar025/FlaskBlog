@@ -40,7 +40,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/FlaskBlog.git
+   git clone https://github.com/SampathKumar025/FlaskBlog.git
    cd FlaskBlog
 
 2. Create a virtual environment (optional but recommended):
