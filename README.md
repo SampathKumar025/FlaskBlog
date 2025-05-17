@@ -19,7 +19,7 @@ FlaskBlog is a web application that allows users to create, read, update, and de
 
 ## Features
 
-- User authentication and registration
+- Secured User authentication and registration with email password reset
 - Create, edit, and delete blog posts
 - User-friendly web interface
 - Customizable with Flask extensions
@@ -47,26 +47,17 @@ Before you begin, ensure you have met the following requirements:
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    venv\Scripts\activate      # On Windows
 
 3. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
 
-4. Set up the database:
+4. Start the Flask development server:
 
     ```bash
-    flask db init
-    flask db migrate
-    flask db upgrade
-
-5. Start the Flask development server:
-
-    ```bash
-    flask run  # or
     py run.py
-
 
 ## Usage
 
