@@ -10,8 +10,6 @@ Welcome to FlaskBlog, a simple and customizable blog website built with Flask.
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -46,7 +44,7 @@ Before you begin, ensure you have met the following requirements:
 2. Create a virtual environment (optional but recommended):
 
     ```bash
-    python -m venv venv
+    python -m venv flaskvenv
     venv\Scripts\activate      # On Windows
 
 3. Install the required dependencies:
